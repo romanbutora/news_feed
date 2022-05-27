@@ -12,8 +12,8 @@ const LocationGPS = ({}) => {
   }, [])
 
   function showPosition(position) {
-    document.querySelector("#location").textContent = "Your coordinates are : latitude: " + position.coords.latitude + 
-    " longitude: " + position.coords.longitude;
+    document.querySelector("#location").textContent = "Your coordinates are : Latitude: " + position.coords.latitude + 
+    " Longitude: " + position.coords.longitude;
   }
 
 
